@@ -12,6 +12,7 @@
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
+
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -32,6 +33,9 @@
                         </li>
                         <li class="nav__item">
                             <a href="#discover" class="nav__link">Our Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#partners" class="nav__link">Our Partners</a>
                         </li>
                         <li class="nav__item">
                             <a href="#place" class="nav__link">Contact Us</a>
@@ -118,48 +122,12 @@
                 <h2 class="section__title"><br> Our Team</h2>
                 
                 <div class="discover__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== DISCOVER 1 ====================-->
-                        <div class="discover__card swiper-slide" style="border-radius: 15px;">
-                            <img src="assets/img/ankit.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Ankit Subedi</h2>
-                                <span class="discover__description">President</span>
-                            </div>
-                        </div>
-
-
-                        <!--==================== DISCOVER 2 ====================-->
-                        <div class="discover__card swiper-slide" style="border-radius: 15px;">
-                            <img src="assets/img/binayak.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Binayak Jha</h2>
-                                <span class="discover__description">IT Director</span>
-                            </div>
-                        </div>
-                        <!--==================== DISCOVER 4 ====================-->
-                        <div class="discover__card swiper-slide" style="border-radius: 15px;">
-                            <img src="assets/img/prashim.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Prashim Timsina</h2>
-                                <span class="discover__description">It member</span>
-                            </div>
-                        </div>
-                        <!--==================== DISCOVER 3 ====================-->
-                        <div class="discover__card swiper-slide" style="border-radius: 15px;">
-                            <img src="assets/img/aryan.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Aryan Sigdel</h2>
-                                <span class="discover__description">Vice President, IT</span>
-                            </div>
-                        </div>
-
-                       
+                    <div class="swiper-wrapper" id="teamsContainer">
                     </div>
                 </div>
             </section>
  <!--==================== PLACES ====================-->
- <section class="place section" id="place">
+ <section class="place section" id="partners">
     <h2 class="section__title">Our Partners</h2>
 
     <div class="place__container container grid">
@@ -477,7 +445,7 @@
         <a href="#" class="scrollup" id="scroll-up" style = "border-radius: 25%;">
             <i class="ri-arrow-up-line scrollup__icon"></i>
         </a>
-
+        <script src="assets/js/teams.js"></script>
         <!--=============== SCROLL REVEAL===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
         
@@ -486,5 +454,6 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        
     </body>
 </html>
